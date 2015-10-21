@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		122037D41BD6C0AD00332339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122037D31BD6C0AD00332339 /* main.m */; };
+		122037E81BD7EFB500332339 /* SmartPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 122037E71BD7EFB500332339 /* SmartPhone.m */; settings = {ASSET_TAGS = (); }; };
+		122037EB1BD7F02900332339 /* IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 122037EA1BD7F02900332339 /* IPhone.m */; settings = {ASSET_TAGS = (); }; };
+		122037EE1BD7F03A00332339 /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = 122037ED1BD7F03A00332339 /* Android.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		122037D01BD6C0AD00332339 /* W1D3 - OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W1D3 - OOP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		122037D31BD6C0AD00332339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		122037E61BD7EFB500332339 /* SmartPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartPhone.h; sourceTree = "<group>"; };
+		122037E71BD7EFB500332339 /* SmartPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartPhone.m; sourceTree = "<group>"; };
+		122037E91BD7F02900332339 /* IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhone.h; sourceTree = "<group>"; };
+		122037EA1BD7F02900332339 /* IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhone.m; sourceTree = "<group>"; };
+		122037EC1BD7F03900332339 /* Android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
+		122037ED1BD7F03A00332339 /* Android.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Android.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				122037D31BD6C0AD00332339 /* main.m */,
+				122037EC1BD7F03900332339 /* Android.h */,
+				122037ED1BD7F03A00332339 /* Android.m */,
+				122037E91BD7F02900332339 /* IPhone.h */,
+				122037EA1BD7F02900332339 /* IPhone.m */,
+				122037E61BD7EFB500332339 /* SmartPhone.h */,
+				122037E71BD7EFB500332339 /* SmartPhone.m */,
 			);
 			path = "W1D3 - OOP";
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122037E81BD7EFB500332339 /* SmartPhone.m in Sources */,
+				122037EE1BD7F03A00332339 /* Android.m in Sources */,
 				122037D41BD6C0AD00332339 /* main.m in Sources */,
+				122037EB1BD7F02900332339 /* IPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +253,7 @@
 				122037D91BD6C0AD00332339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
