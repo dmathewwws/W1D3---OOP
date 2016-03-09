@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		122037D41BD6C0AD00332339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122037D31BD6C0AD00332339 /* main.m */; };
+		12DFD63E1C9092DB00856146 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD63D1C9092DB00856146 /* Animal.m */; };
+		12DFD6411C90961E00856146 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DFD6401C90961E00856146 /* Bird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		122037D01BD6C0AD00332339 /* W1D3 - OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W1D3 - OOP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		122037D31BD6C0AD00332339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12DFD63C1C9092DB00856146 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		12DFD63D1C9092DB00856146 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		12DFD63F1C90961E00856146 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		12DFD6401C90961E00856146 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				122037D31BD6C0AD00332339 /* main.m */,
+				12DFD63F1C90961E00856146 /* Bird.h */,
+				12DFD6401C90961E00856146 /* Bird.m */,
+				12DFD63C1C9092DB00856146 /* Animal.h */,
+				12DFD63D1C9092DB00856146 /* Animal.m */,
 			);
 			path = "W1D3 - OOP";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				122037D41BD6C0AD00332339 /* main.m in Sources */,
+				12DFD63E1C9092DB00856146 /* Animal.m in Sources */,
+				12DFD6411C90961E00856146 /* Bird.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +247,7 @@
 				122037D91BD6C0AD00332339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
