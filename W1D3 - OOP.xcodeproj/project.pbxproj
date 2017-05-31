@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		122037D41BD6C0AD00332339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122037D31BD6C0AD00332339 /* main.m */; };
+		122D7D971EDF20EC00BE5D47 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 122D7D961EDF20EC00BE5D47 /* Animal.m */; };
+		1232A1281EDF262100022FCF /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 1232A1271EDF262100022FCF /* Bird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		122037D01BD6C0AD00332339 /* W1D3 - OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W1D3 - OOP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		122037D31BD6C0AD00332339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		122D7D951EDF20EC00BE5D47 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animal.h; path = ../Animal.h; sourceTree = "<group>"; };
+		122D7D961EDF20EC00BE5D47 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Animal.m; path = ../Animal.m; sourceTree = "<group>"; };
+		1232A1261EDF262100022FCF /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		1232A1271EDF262100022FCF /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		122037D21BD6C0AD00332339 /* W1D3 - OOP */ = {
 			isa = PBXGroup;
 			children = (
+				122D7D951EDF20EC00BE5D47 /* Animal.h */,
+				122D7D961EDF20EC00BE5D47 /* Animal.m */,
+				1232A1261EDF262100022FCF /* Bird.h */,
+				1232A1271EDF262100022FCF /* Bird.m */,
 				122037D31BD6C0AD00332339 /* main.m */,
 			);
 			path = "W1D3 - OOP";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				122037D41BD6C0AD00332339 /* main.m in Sources */,
+				122D7D971EDF20EC00BE5D47 /* Animal.m in Sources */,
+				1232A1281EDF262100022FCF /* Bird.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
