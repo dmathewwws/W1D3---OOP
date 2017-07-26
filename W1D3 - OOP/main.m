@@ -12,30 +12,15 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-    
         
-        Animal *bear = [[Animal alloc] initWithSound:@"grrrr"];
-
-        
-        if (bear) {
-            NSLog(@"Bear Exits");
-            [bear addBodyPart:@"nose"];
-            [bear print];
-        }
-        
-        NSArray *animalsArray = @[bear, bear];
-        
-        bear.sound = @"mrrrrr";
-        
-        Animal *bear2 = [[Animal alloc] initWithSound:@"mrrrrr"];
-
-        NSSet *bearSet = [NSSet setWithObjects:bear, bear2, nil];
-        
-        
-        Bird *crow = [[Bird alloc] initWithSound:@"craaa"];
-        [crow print];
-        
+        Animal *animal = [[Animal alloc] init];
+        [animal print];
                 
+        Bird *bird = [[Bird alloc] initWithSound:@"craww" andWindSpeed:10];
+        [bird print];
+        [bird addBodyPart:@"beak"];
+        
+        
     }
     
     return 0;
